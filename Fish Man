@@ -1,0 +1,9 @@
+puond = float(input("fish vazn be puond:" ))
+kg = puond * 0.5
+print(kg)
+ghimat = float(input("vared kn ghimat: ")) * kg
+print(ghimat)
+if puond > 150  > 40:
+    print("tabrik gholab barandeh shodi!")
+else:
+    print("ghimat 10% kam shod")
